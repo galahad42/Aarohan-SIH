@@ -7,6 +7,7 @@ import Menu from "@mui/material/Menu";
 import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import logo from "../assests/logo.svg";
+import profilelogo from "../assests/profilelogo.svg";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
@@ -15,7 +16,7 @@ const settings = ["Profile", "Account", "Dashboard", "Logout"];
 function NavBar() {
   return (
     <AppBar position="static">
-      <Container maxWidth="xl" sx={{ padding: 1, background: "#ED7B7B" }}>
+      <Container maxWidth="xl" sx={{ padding: 1, background: "#FA2A55" }}>
         <Toolbar
           disableGutters
           sx={{ display: "flex", justifyContent: "space-between" }}
@@ -25,7 +26,7 @@ function NavBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Remy Sharp" src={profilelogo} sx={{ height: 70, width: 70 }} />
               </IconButton>
             </Tooltip>
             <Menu
