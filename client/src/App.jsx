@@ -1,11 +1,11 @@
-import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+import Profile from "./components/Profile";
 
 const App = () => {
   return (
     <div>
       <NavBar />
-      <Home />
+      <Profile />
     </div>
   );
 };
