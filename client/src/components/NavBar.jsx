@@ -10,10 +10,12 @@ import logo from "../assests/logo.svg";
 import profilelogo from "../assests/profilelogo.svg";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import { useNavigate } from "react-router-dom";
 
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function NavBar() {
+  const navigate = useNavigate();
   return (
     <AppBar position="static">
       <Container maxWidth="xl" sx={{ padding: 1, background: "#FA2A55" }}>
@@ -25,8 +27,17 @@ function NavBar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src={profilelogo} sx={{ height: 70, width: 70 }} />
+              <IconButton
+                sx={{ p: 0 }}
+                onClick={() => {
+                  navigate("/profile");
+                }}
+              >
+                <Avatar
+                  alt="Remy Sharp"
+                  src={profilelogo}
+                  sx={{ height: 70, width: 70 }}
+                />
               </IconButton>
             </Tooltip>
             <Menu
