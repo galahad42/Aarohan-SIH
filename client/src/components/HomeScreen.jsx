@@ -78,7 +78,7 @@ const HomeScreen = () => {
             color={card.color}
             reportTop={card.reportTop}
             innerTop={card.innerTop}
-            navi={card.navigate}
+            navigate={card.navigate}
           />
         ))}
       </div>
