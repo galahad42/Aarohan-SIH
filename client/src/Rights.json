@@ -20,11 +20,45 @@
     "Description": "Article 21 is like a shield in India's rulebook, the Constitution, that protects our freedom and safety. It says nobody can take us away or do anything to us that's not fair. Imagine your favorite game with clear rules. Article 21 is like those fair rules for life, making sure nobody treats us unfairly or takes away our freedom. This rule helps keep us safe and lets us live our lives the way we want as long as we follow the fair rules. So, Article 21 is our protector, making sure we stay safe and free to be kids.",
     "Video": ""
   },
-
+  {
+    "Id": 4,
+    "Article Number": 23,
+    "Title": "Right to being protected from being trafficked and forced into bonded labour",
+    "Description": "Article 23 is like a superhero rule in India's rulebook, the Constitution, that fights against the bad people who might want to hurt us. It says no one can make us work like grown-ups when we should be playing or studying. It protects us from being forced to do hard work. Imagine a shield that keeps you safe from bad things. Article 23 is like that shield, making sure no one can take you away or make you work when you shouldn't.",
+    "Video": ""
+  },
+  {
+    "Id": 5,
+    "Article Number": 46,
+    "Title": "Right of weaker sections of the people to be protected from social injustice and all forms of exploitation",
+    "Description": "Article 46 is like a big heart in India's rulebook, the Constitution. It cares about making sure everyone, especially those who need help the most, is treated fairly. It says we should look out for people who might be having a hard time because they're not as strong or powerful. We need to be kind and protect them from unfairness. ",
+    "Video": ""
+  },
+  {
+    "Id": 6,
+    "Article Number": "21 A",
+    "Title": "Right to free and compulsory elementary education for children in the 6-14 year age group",
+    "Description": "Article 21 is like a magic ticket in India's rulebook, the Constitution. It says every kid between 6 and 14 years old has the right to go to school, and it should be free! Imagine going to a place where you can learn cool stuff, make friends, and have fun.",
+    "Video": ""
+  },
+  {
+    "Id": 7,
+    "Article Number": 24,
+    "Title": "Right to be protected from hazardous employment till the age of 14 years",
+    "Description": "Article 24 is like a guardian rule in India's rulebook, the Constitution. It says kids under 14 years old should never have to do dangerous or tough jobs. Imagine a safety net that keeps you from doing things that could hurt you. Article 24 is like that net, making sure you stay safe and healthy. This rule means you can focus on learning, playing, and being a kid instead of working in places that might not be safe.",
+    "Video": ""
+  },
+  {
+    "Id": 8,
+    "Article Number": "39(e)",
+    "Title": "Right to be protected from being abused ",
+    "Description": "Article 39(e) makes sure kids don't have to do jobs that are too tough or not right for their age. Imagine having a guide that helps you make good choices. Article 39(e) is like that guide, keeping you safe from work that's too hard. This rule means you get to do things that match your age and strength, like playing and learning, instead of doing jobs that could be unsafe. So, Article 39(e) is our protector, making sure we have the right to make safe and smart choices. ",
+    "Video": ""
+  },
   {
     "Id": 9,
     "Article Number": "39(f)",
-    "Title": "Right to equal opportunities and facilities to develop in a healthy manner and in conditions of freedom and dignity and guaranteed protection of childhood and youth against exploitation and against moral and material abandonment ",
+    "Title": "Right to equal opportunities  ",
     "Description": "Article 39(f) is like a big hug in India's rulebook, the Constitution. It makes sure all kids have the same chances to grow up healthy, happy, and protected. Imagine a level playing field where everyone gets a fair shot. Article 39(f) is like that field, making sure no one is left behind or treated poorly.This rule means every child has the right to be safe, healthy, and have opportunities to learn and grow. It guards against kids being hurt or left on their own.So, Article 39(f) is our guardian, ensuring we all have a fair chance to blossom and be our best.",
     "Video": ""
   }

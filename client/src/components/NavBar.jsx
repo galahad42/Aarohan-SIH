@@ -23,7 +23,13 @@ function NavBar() {
           disableGutters
           sx={{ display: "flex", justifyContent: "space-between" }}
         >
-          <img src={logo} width={200} />
+          <img
+            src={logo}
+            width={200}
+            onClick={() => {
+              navigate("/");
+            }}
+          />
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">

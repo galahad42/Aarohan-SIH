@@ -25,7 +25,7 @@ const Writing = (props) => {
         style={{
           position: "absolute",
           top: "25%",
-          left: "29%",
+          left: "27%",
           fontSize: "2em",
           maxWidth: "30vw",
           overflowWrap: "break-word",

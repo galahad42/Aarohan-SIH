@@ -1,8 +1,11 @@
 import learnBg from "../assests/Learn.svg";
-import Writing from "./Writing";
 import RIGHTS from "../Rights.json";
+import { useNavigate } from "react-router-dom";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
 
 const Learn = () => {
+  const navigate = useNavigate();
   return (
     <div
       style={{
@@ -15,17 +18,44 @@ const Learn = () => {
         alignItems: "center",
       }}
     >
-      {RIGHTS.map((e) => (
-        <Writing key={e.id} head={e.Title} text={e.Description} />
-      ))}
-      <Writing
-        head="Right against discrimination"
-        text="Article 15 says no one can treat kids unfairly because of who they are or where they come from.
-        All kids have the same rights, no matter where they live or how rich their family is.
-        It helps all kids go to school, no matter who they are.
-        It makes sure boys and girls are treated the same.
-        Kids should have time to play and learn, not work."
-      />
+      <h1
+        style={{
+          fontSize: "2em",
+          textDecoration: "underline",
+        }}
+      >
+        List of Rights
+      </h1>
+      <ul>
+        {RIGHTS.map((right) => (
+          <li
+            key={right.Id}
+            style={{
+              fontSize: "1.72em",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                padding: 20,
+                marginRight: "90px",
+                background: "#F0C14B",
+              }}
+            >
+              <h2 style={{ marginLeft: "20px" }}>
+                Article Number {right["Article Number"]}
+              </h2>
+              <ListItemButton component="a">
+                <ListItemText
+                  primary={right.Title}
+                  onClick={() => navigate(`/learn/${right.Id}`)}
+                  className="hover:bg-white  "
+                />
+              </ListItemButton>
+            </div>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
