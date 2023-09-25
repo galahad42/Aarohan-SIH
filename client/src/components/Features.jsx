@@ -65,7 +65,7 @@ const Features = (props) => {
             background: "white",
           }}
           onClick={() => {
-            navigate("/learn");
+            navigate(navi);
           }}
         >
           <span
