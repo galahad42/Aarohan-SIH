@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 const Features = (props) => {
-  const { image, text, color, reportTop, innerTop } = props;
+  const navigate = useNavigate();
+  const { image, text, color, reportTop, innerTop, navi } = props;
   const color1 = "white";
   return (
     <div
@@ -61,6 +63,9 @@ const Features = (props) => {
             width: 166,
             borderRadius: 20,
             background: "white",
+          }}
+          onClick={() => {
+            navigate("/learn");
           }}
         >
           <span
