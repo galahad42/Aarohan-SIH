@@ -12,7 +12,6 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path={"/"} element={<HomeScreen />} />
-          <Route path={"/home"} element={<HomeScreen />} />
           <Route path={"/profile"} element={<Profile />} />
           <Route path={"/learn"} element={<Learn />} />
           <Route path={"/signin"} element={<Signin />} />

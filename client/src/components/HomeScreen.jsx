@@ -21,7 +21,7 @@ const HomeScreen = () => {
       img: report3,
       reportTop: reportTop2,
       innerTop: Th,
-      navigate: "/play",
+      navi: "/play",
     },
     {
       text: "LEARN",
@@ -29,7 +29,7 @@ const HomeScreen = () => {
       img: report2,
       reportTop: reportTop1,
       innerTop: Th1,
-      navigate: "/learn",
+      navi: "/learn",
     },
     {
       text: "CHAT",
@@ -37,7 +37,7 @@ const HomeScreen = () => {
       img: report4,
       reportTop: reportTop3,
       innerTop: Th2,
-      navigate: "/chat",
+      navi: "/chat",
     },
     {
       text: "REPORT",
@@ -45,7 +45,7 @@ const HomeScreen = () => {
       img: report,
       reportTop: reportTop4,
       innerTop: Th3,
-      navigate: "/report",
+      navi: "/report",
     },
   ];
 
@@ -78,7 +78,7 @@ const HomeScreen = () => {
             color={card.color}
             reportTop={card.reportTop}
             innerTop={card.innerTop}
-            navigate={card.navigate}
+            navi={card.navi}
           />
         ))}
       </div>
