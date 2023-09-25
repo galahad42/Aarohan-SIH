@@ -1,0 +1,31 @@
+[
+  {
+    "Id": 1,
+    "Article Number": 14,
+    "Title": "Right to equality",
+    "Description": "Article 14 is like a fairness rule in India's rulebook, the Constitution.It says everyone, including kids, should be treated fairly and equally by the law. Imagine a race where everyone starts from the same line, no matter who they are. Article 14 is like that starting line for fairness. This rule helps protect kids from being treated differently because of where they come from or who they are. So, Article 14 is our fairness rule that makes sure every child's rights are respected and that everyone gets a fair chance.",
+    "Video": ""
+  },
+  {
+    "Id": 2,
+    "Article Number": 15,
+    "Title": "Right against discrimination",
+    "Description": "Article 15 is a special rule in India that says nobody can treat kids unfairly because of things like religion, where they were born, or whether they're boys or girls. It makes sure kids can go to fun places and play together without anyone being mean to them. Article 15 also lets the government make special rules to help kids and girls stay safe and happy. It's like a superhero rule that protects kids and makes sure they have a fair chance to grow up strong and smart. ",
+    "Video": ""
+  },
+  {
+    "Id": 3,
+    "Article Number": 21,
+    "Title": "Right to personal liberty and due process of law",
+    "Description": "Article 21 is like a shield in India's rulebook, the Constitution, that protects our freedom and safety. It says nobody can take us away or do anything to us that's not fair. Imagine your favorite game with clear rules. Article 21 is like those fair rules for life, making sure nobody treats us unfairly or takes away our freedom. This rule helps keep us safe and lets us live our lives the way we want as long as we follow the fair rules. So, Article 21 is our protector, making sure we stay safe and free to be kids.",
+    "Video": ""
+  },
+
+  {
+    "Id": 9,
+    "Article Number": "39(f)",
+    "Title": "Right to equal opportunities and facilities to develop in a healthy manner and in conditions of freedom and dignity and guaranteed protection of childhood and youth against exploitation and against moral and material abandonment ",
+    "Description": "Article 39(f) is like a big hug in India's rulebook, the Constitution. It makes sure all kids have the same chances to grow up healthy, happy, and protected. Imagine a level playing field where everyone gets a fair shot. Article 39(f) is like that field, making sure no one is left behind or treated poorly.This rule means every child has the right to be safe, healthy, and have opportunities to learn and grow. It guards against kids being hurt or left on their own.So, Article 39(f) is our guardian, ensuring we all have a fair chance to blossom and be our best.",
+    "Video": ""
+  }
+]
