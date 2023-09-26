@@ -1,8 +1,9 @@
-import learnBg from "../assests/Learn.svg";
+import learnBg from "../assests/Learnbg.svg";
 import RIGHTS from "../Rights.json";
 import { useNavigate } from "react-router-dom";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
+import quizimg from "../assests/quizimg.svg";
 
 const Learn = () => {
   const navigate = useNavigate();
@@ -17,12 +18,15 @@ const Learn = () => {
         justifyContent: "center",
         alignItems: "center",
       }}
+      className="object-fill"
     >
       <h1
         style={{
           fontSize: "2em",
           textDecoration: "underline",
         }}
+
+        className="mb-6 pt-4"
       >
         List of Rights
       </h1>
@@ -39,18 +43,21 @@ const Learn = () => {
                 display: "flex",
                 padding: 20,
                 marginRight: "90px",
-                background: "#F0C14B",
+                background: "#6a0dada2",
               }}
+              className="text-bold text-white m-2 rounded-3xl"
             >
               <h2 style={{ marginLeft: "20px" }}>
-                Article Number {right["Article Number"]}
+                Article Number {right["Article Number"]}<span>&#160;</span> ->
               </h2>
               <ListItemButton component="a">
                 <ListItemText
                   primary={right.Title}
                   onClick={() => navigate(`/learn/${right.Id}`)}
-                  className="hover:bg-white  "
+                  className="text-bold text-white"
                 />
+                <img src={quizimg} alt="" width={40} onClick={() => { navigate('/quiz') }} />
+
               </ListItemButton>
             </div>
           </li>

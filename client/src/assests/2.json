@@ -1,0 +1,46 @@
+{
+    "questions": [
+        {
+            "Id": 1,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "Why did the gorillas in Greenwood Forest initially prevent Chip from collecting fruits in their territory?",
+            "Option1": "a) Because Chip was too young",
+            "Option2": "b)Because they wanted to teach Chip a lesson\nc) ",
+            "Option3": "c)Because they believed Chip was of a lower class\n",
+            "Answer": "c) Because they believed Chip was of a lower class"
+        },
+
+        {
+            "Id": 2,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "What was the main message of King Lion when he addressed the gorillas about discrimination?",
+            "Option1": "a) Discrimination is acceptable under certain circumstances\n",
+            "Option2": "b) Discrimination should never be tolerated, and everyone should be treated fairly\n",
+            "Option3": "c) Discrimination should be left to the individual animals to decide",
+            "Answer":  "b) Discrimination should never be tolerated, and everyone should be treated fairly"
+        },
+        
+        {
+            "Id": 3,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "Why is it important to stand up against discrimination, as demonstrated in the story?",
+            "Option1": "a) Because discrimination is sometimes necessary to maintain order.\n",
+            "Option2": "b) Because discrimination can lead to unity and understanding.\n",
+            "Option3": "c) Because discrimination is unfair and harms individuals and communities.",
+            "Answer":  "c) Because discrimination is unfair and harms individuals and communities."
+        },
+        {
+            "Id": 4,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "In the end, what kind of forest did Greenwood become after everyone learned to stand up against discrimination?",
+            "Option1": "a) A divided and unhappy forest\n",
+            "Option2": "b) A forest where everyone shared its treasures and lived harmoniously\n",
+            "Option3": "c) A forest where only the gorillas had access to fruits",
+            "Answer":  "b) A forest where everyone shared its treasures and lived harmoniously\n"
+        }
+    ]
+}

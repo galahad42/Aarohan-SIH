@@ -29,6 +29,8 @@ function NavBar() {
             onClick={() => {
               navigate("/");
             }}
+
+            className="hover:cursor-pointer"
           />
 
           <Box sx={{ flexGrow: 0 }}>

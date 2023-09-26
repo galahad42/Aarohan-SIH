@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "Id": 1,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "Which of the following is an example of discrimination?",
+            "Option1": "a) Helping a friend who is in need\n",
+            "Option2": "b) Not inviting someone to a party because of their skin color\n",
+            "Option3": "c) Sharing toys with others\n",
+            "Answer": "b) Not inviting someone to a party because of their skin color\n"
+        },
+        {
+            "Id": 2,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "What can you do to stand up against discrimination?",
+            "Option1": "a) Join in and make fun of someone different from you\n",
+            "Option2": "b) Speak up and tell a teacher or adult if you see someone being treated unfairly\n",
+            "Option3": "c) Ignore the situation and pretend you didn't see anything\n",
+            "Answer": "b) Speak up and tell a teacher or adult if you see someone being treated unfairly\n"
+        },
+        {
+            "Id": 3,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "Which of the following statements is true?",
+            "Option1": "a) It's okay to judge someone based on their appearance\n",
+            "Option2": "b) Everyone should be treated with respect and kindness\n",
+            "Option3": "c) Discrimination is only wrong when adults do it.\n",
+            "Answer": "b) Everyone should be treated with respect and kindness\n"
+        },
+        {
+            "Id": 4,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "Why is it important to treat everyone equally?",
+            "Option1": "a) Because it's a rule\n",
+            "Option2": "b) Because it's the right thing to do, and it makes the world a better place\n",
+            "Option3": "c) Because it doesn't matter how you treat people\n",
+            "Answer": "b) Because it's the right thing to do, and it makes the world a better place\n"
+        },
+        {
+            "Id": 5,
+            "Article Number": 14,
+            "Title": "Right against discrimination",
+            "Problem": "What does discrimination mean?",
+            "Option1": "a) Treating everyone fairly\n",
+            "Option2": "b) Treating some people unfairly because of who they are\n",
+            "Option3": "c) Ignoring people\n",
+            "Answer": "b) Treating some people unfairly because of who they are\n"
+        }
+    ]
+}
